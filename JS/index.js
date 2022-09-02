@@ -1,29 +1,14 @@
 
-document.addEventListener("DOMContentLoaded", function () {
-	document.querySelector("heading").textContent = "These are cool!!";
-});
+const options = {
+	method: 'GET',
+	headers: {
+		'X-RapidAPI-Key': '6e27dc73b7msha37b4944747157bp1bbd46jsn02e1ca376a29',
+		'X-RapidAPI-Host': 'quotes15.p.rapidapi.com'
+	}
+};
 
-let myForm = document.getElementById("new");
-myForm.addEventListener("submit", (e) =>{
-  e.preventDefault()
-
-  let formData =new FormData(e.target)
-  let fullName = document.getElementById("fname").value
-  // alert("djddsa")
-  let myEmail = document.getElementById("email").value
-  // alert(myEmail)
-  
-
-});
-$(document).ready(function(){
-    $("#sub").click(function(){
-      
-          alert("Your request has been received and is being worked on.Further communications on payment and delivery shall be made through your email address entered above ");
-      
-      //  else {
-      //      alert("Please fill in the details for delivery!");
-         
-          
-        
-    })
-  });
+fetch('https://quotes15.p.rapidapi.com/quotes/random/', options)
+	.then(response => response.json())
+	.then(response => console.log(response))
+    console.log(response.content)
+	.catch(err => console.error(err));
