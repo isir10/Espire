@@ -11,7 +11,7 @@ body{
     font-family: 'Poppins';
     line-height: 20px;
     color: #b1b4bd;
-    background-color: #2e373f;
+    background-color: #40505e;
     box-sizing: border-box;
 }
 a {
@@ -98,7 +98,7 @@ a:hover {
     position: relative;
 }
 .navbar-expand-lg .navbar-nav .nav-link.active{
-    color: #c01b1b;
+    color: #1b55c0;
     
 }
 .btn {
@@ -200,12 +200,12 @@ a:hover {
     text-align: center;
 }
 .controls.top h1{
-    color: hsla(180, 17%, 93%, 0.89);
+    color: hsla(310, 76%, 29%, 0.89);
     text-align: center;
 }
-.text-warning h2{
-    color: #ede5eed7;
-    text
+.text-warning {
+    text-decoration: #5a032cd7;
+    
 }
 .footer p{
     color: #292829c9;
@@ -227,3 +227,10 @@ a:hover {
   {
       color: rgb(224, 213, 213);
   }
+  .footer {
+    background: rgb(82, 89, 92);
+    color: #58555502;
+    font-size: 7px;
+    padding: 0px 0 20px;
+    
+}
