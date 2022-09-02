@@ -207,3 +207,23 @@ a:hover {
     color: #ede5eed7;
     text
 }
+.footer p{
+    color: #292829c9;
+}
+.footer h4{
+    color: rgb(163, 11, 11);
+    padding: 20px;
+
+}
+.footer{
+    text-align: center;
+    padding-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .text-warning p{
+      color: rgb(138, 6, 105);
+  }
+  .col-md-3 P
+  {
+      color: rgb(224, 213, 213);
+  }
