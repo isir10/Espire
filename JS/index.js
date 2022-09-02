@@ -1,7 +1,11 @@
 
-
-document.getElementById("img").onclick = function() {myFunction()};
+document.addEventListener("DOMContentLoaded", function () {
+	document.querySelector("heading").textContent = "These are cool!!";
+});
+var form = document.getElementById('new');
 
 function myFunction() {
-  document.getElementById("img").classList.toggle("new");
-}
+  if (form.checkValidity()) {
+    alert("Adding Succesful!");
+  }
+};
