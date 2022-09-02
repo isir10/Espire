@@ -240,3 +240,34 @@ a:hover {
 .text h2{
     text-decoration: #0a3d62;
 }
+#form h3{
+    text-align: center;
+}
+#form label{
+    font-weight: bold;
+    margin-left: 200px;
+
+}
+#form input{
+    /* font-weight: bold; */
+    margin-left: 200px;
+
+
+}
+#form textarea{
+    font-weight: bold;
+    margin-left: 200px;
+}
+#form{
+    background-color:  rgb(136, 233, 250);
+    display: none;
+    margin-top: 50px;
+}
+.table{
+    margin-left: 250px;
+    /* display: none; */
+}
+input[type="submit"]{
+    margin-right: 100px;
+    
+}
