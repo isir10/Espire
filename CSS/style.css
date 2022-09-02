@@ -32,7 +32,7 @@ a:hover {
     min-height: 750px;
     padding-bottom: 70px;
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(50,58,69)));
-    background-image: url("../assets/images/surgical_equipments.jpg");
+    background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm332-391-ploy-10.jpg?w=1200&h=1200&dpr=1&fit=clip&crop=default&fm=jpg&q=75&vib=3&con=3&usm=15&cs=srgb&bg=F4F4F3&ixlib=js-2.2.1&s=924d2be81664262e9d1ca121fc7e1bda");
     background-image: linear-gradient(180deg, rgba(50,58,69,0.55)), rgba(50,58,69,0.74)));
     background-position: 0px 0px, 100% 50%;
     background-size: auto, cover;
@@ -100,4 +100,110 @@ a:hover {
 .navbar-expand-lg .navbar-nav .nav-link.active{
     color: #c01b1b;
     
+}
+.btn {
+    background-color: #e74c3c;
+    color: white;
+    border-radius: 10px;
+    padding: 1rem 1.5rem;
+    font-size: 1.2rem;
+}
+
+.btn:hover{
+    background-color: #0a3d62;
+    color: #fff;
+}
+.heading{
+    font-size: 3.5rem;
+    font-weight: bold;
+    line-height: 1.4;
+    text-align: center;
+    color: rgb(102, 15, 76);
+    margin-top: 180px;
+    margin-bottom: 8px;
+    min-width: 100px;
+    
+}
+
+.col-2 {
+    flex-basis: 100%;
+    min-width: 300px;
+}
+.col-2 h1 {
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+.btn {
+    display: inline-block;
+    background: #67566b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+.column-left {
+    min-height: 750px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(12,32,59,0.9)));
+    background-image: url("https://cdn.mos.cms.futurecdn.net/KSMqTetYmtEjRvaHpJbAaR.jpg");
+    background-image: linear-gradient(180deg, rgba(50,58,69,0.55)), rgba(12,32,59,0.74)));
+    background-position: 0px 0px, 100% 50%;
+    background-size:  cover;
+    background-attachment: scroll, scroll;
+    object-fit: cover;
+
+}
+.column-right {
+    margin-top: 80px;
+    padding: 5rem, 2rem, 0rem, 5rem;
+    font-size: 2.8rem;
+    font-weight: 500;
+    color: #b1b4bd;
+}
+.column-right .paragraph {
+    margin-top: 15px;
+    padding: 1rem, 5rem, 1rem, 5rem;
+    font-size: 1.6rem;
+    color: #b1b4bd;
+    line-height: 1.4;
+    text-align: justify;
+}
+.categories{
+    margin: 70px 0;
+ 
+ }
+ .col-3{
+     flex-basis: 30%;
+     min-width: 250px;
+     transition: transform 0.5s;
+ }
+ .col-3 img{
+     width: 100%;
+ }
+ .small-container{
+ max-width: 2080px;
+ margin: auto;
+ padding-left: 25px;
+ padding-right: 25px;
+ 
+ }
+ .col-3:hover {
+  transform: translateY(-5px);
+ }
+ .title {
+    text-align: center;
+    margin: auto;
+    padding: 0%;
+}
+.prod{
+    text-align: center;
+}
+.controls.top h1{
+    color: hsla(180, 17%, 93%, 0.89);
+    text-align: center;
+}
+.text-warning h2{
+    color: #ede5eed7;
+    text
 }
