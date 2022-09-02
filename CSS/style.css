@@ -215,6 +215,9 @@ a:hover {
     padding: 20px;
 
 }
+.footer-col-2 p{
+    color: #70073c;
+}
 .footer{
     text-align: center;
     padding-top: 10px;
@@ -233,4 +236,7 @@ a:hover {
     font-size: 7px;
     padding: 0px 0 20px;
     
+}
+.text-warning h2{
+    text-decoration: #0a3d62;
 }
