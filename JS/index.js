@@ -1,5 +1,7 @@
-$(document).ready(function(){
-    $("#img").click(function(){
-    $(".img").hide();
-     $("#new").show();
-  })
+
+
+document.getElementById("img").onclick = function() {myFunction()};
+
+function myFunction() {
+  document.getElementById("img").classList.toggle("new");
+}
