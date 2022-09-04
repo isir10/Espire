@@ -12,3 +12,13 @@ fetch('https://quotes15.p.rapidapi.com/quotes/random/', options)
 	.then(response => console.log(response))
     console.log(response.content)
 	.catch(err => console.error(err));
+
+
+ var myForm = document.getElementById('new');
+ 
+ myForm.addEventListener('submit', function(event){
+	 //event.preventDefault()
+	 var username = document.getElementById('fname').value;
+	 var email =document.getElementById('email').value;
+	 alert (username+ 'your request has been received!')
+ });
