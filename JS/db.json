@@ -1,0 +1,23 @@
+{
+    "user":[
+        "id":1,
+        "name": "isir",
+        "status": "active",
+        "role": "developer",
+
+    ]
+}
+{
+    "id":2,
+    "name": "amina",
+    "status": "active",
+    "role": "admin",
+
+}
+{
+    "id":3,
+        "name": "thaus",
+        "status": "inactive",
+        "role": "owner",
+
+}

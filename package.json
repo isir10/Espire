@@ -1,0 +1,23 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "{This is a web application that shows users an interactive landing page and available products of an ecommerce store The user is able to view thier cart, add products to their cart and remove products from their cart. One the user is satisfied with the amount of products in their cart they can proceed to buy.} ## Setup/Installation Requirements Open Terminal {Ctrl+Alt+T}",
+  "main": "index.js",
+  "scripts": {
+  "start": "json-server--watch./Project/db.son"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isir10/Espire.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isir10/Espire/issues"
+  },
+  "homepage": "https://github.com/isir10/Espire#readme",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}
