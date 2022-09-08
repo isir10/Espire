@@ -1,7 +1,7 @@
 # {ESPIRE.}
 # AUTHOR: ISIR MALAK
 ## Description
-{This is a web application that shows users the landing page and available products of an ecommerce store.}
+{This is a web application that shows users an interactive landing page and available products of an ecommerce store The user is able to view thier cart, add products to their cart and remove products from their cart. One the user is satisfied with the amount of products in their cart they can proceed to buy.}
 ## Setup/Installation Requirements
 Open Terminal {Ctrl+Alt+T}
 
@@ -13,7 +13,7 @@ code . or atom . based on the text editor you have.
 
 
 ## Known Bugs
-The form doesn't toggle and hide.
+The price change when adding items to the cart and increasing input  doesn't reflect on the total amount. The code was working fine but it suddenly developed bugs.
 ## Technologies Used
 .HTML5
 .CSS
