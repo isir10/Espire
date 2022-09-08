@@ -351,42 +351,6 @@ cursor: pointer;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  .title {
     text-align: center;
     margin: auto;
@@ -399,13 +363,11 @@ cursor: pointer;
     color: hsla(310, 76%, 29%, 0.89);
     text-align: center;
 }
-.text-warning {
-    text-decoration: #5a032cd7;
-    
+#warning {
+    color: #b344cc;
 }
-
-.text h2{
-    text-decoration: #0a3d62;
+#text-warning{
+    color: #bd55b8;
 }
 #contact h2{
     text-align: center;
@@ -416,6 +378,12 @@ cursor: pointer;
 #contactdetails h2{
     text-align: left;
 }
-.footer{
-    padding-top: 5%;
-}
+
+.footer-col-2{
+    text-align: center;
+    padding-top: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  footer p{
+    margin-top: 10px;
+  }
