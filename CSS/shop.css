@@ -1,0 +1,16 @@
+/*section {
+    padding: 4rem 0 3rem;
+    }
+    .section-title{
+      font-size: 1.5rem;  
+      font-weight: 600;
+      text-align: center;
+    }
+    .shop{
+       margin-top: 2rem; 
+    }
+    .shop-content{
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minimax(220px, auto));
+     gap: 1.5rem;
+ }
